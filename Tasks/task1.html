@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 align="center">User Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details </legend>
+            <br>
+            <label for="1"><b>Name:</b></label>
+            <input type="text" name="" placeholder="First Name" id="1" required>
+            <input type="text" name="" placeholder="Last Name" id="1"> <br> <br>
+            <label for="2"><b>Mobile:</b></label>
+            <input type="number" name="" id="2" placeholder="10 digit mobile number" required>
+            <br><br>
+            <label for="4"><b>Date Of Birth:</b></label>
+            <input type="date" name="" id="4" > <br> <br>
+            <label for="3"><b>Email:</b></label>
+            <input type="email" name="" id="3" placeholder="Enter e-mail" required> <br> <br>
+            <label for="5"><b>Gender:</b></label>
+            <input type="radio" name="test" value="male" id="5"> Male
+            <input type="radio" name="test" value="female" id="5"> Female
+            <br> <br>
+            <label for="6"><b>Address:</b></label>
+            <input type="text" placeholder="Enter current address">
+            <br><br>
+            <label for="7"><b>Country:</b></label>
+            <select name="Country" id="">
+                <option value="India">India</option>
+                <option value="America">America</option>
+                <option value="England">England</option>
+                <option value="Australia">Australia</option>
+                <option value="Canada">Canada</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Preferences</legend>
+            <br>
+            <label for="1"><b>Your Choice:</b></label>
+            <input type="radio" name="test" value="Beaches" id="1"> Beaches
+            <input type="radio" name="test" value="Mountains" id="1"> Mountains
+            <input type="radio" name="test" value="Both" id="1"> Both
+            <br><br>
+            <label for="2"><b>Hobbies</b> </label>  <span>Hobby 1:</span>
+            <select name="Hobbies" id="" >
+                
+                <option value="Reading Books">Reading Books</option>
+                <option value="Playing">Playing Chess</option>
+                <option value="Games">Video Games</option>
+                <option value="Movies">Movies</option>
+                <option value="Gym">Gym</option>
+            </select>
+            <span>Hobby 2:</span>
+            <select name="Hobbies" id="" >
+                <option value="Trekking">Trekking</option>
+                <option value="Reading Books">Reading Books</option>
+                <option value="Playing">Playing Chess</option>
+                <option value="Games">Video Games</option>
+                <option value="Movies">Movies</option>
+                <option value="Gym">Gym</option>
+            </select>
+            <br><br>
+            <label for="3"><b>Your Choice:</b></label>
+            <input type="radio" name="test" value="Tea" id="3"> Tea
+            <input type="radio" name="test" value="Coffee" id="3"> Coffee
+            <br><br>
+
+        </fieldset>
+        <br>
+        <fieldset>
+           <legend>User FeedBack</legend>
+           <p><b>Enter FeedBack:</b></p>
+           <textarea name="" id="" cols="30" rows="5" placeholder="Share your thoughts"></textarea>
+           <br><br>
+           <label for="1"><b>Rating/Experience:</b></label>
+           <input type="range" name="" id="1">
+           <button><b>Submit</b></button>
+        </fieldset>
+    </form>
+</body>
+</html>

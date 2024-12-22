@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   overflow-x: hidden;
+
+}
+/*
+body{
+    background-image: url("./images/img1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+} */
+ .image{
+   position: relative;
+   width: 100%;
+   text-align: center;
+ }
+ .land{
+      position: absolute;
+      color: rgb(255, 255, 255);
+      left: 26%;
+      top: 4%;
+      padding: 0.5rem;
+      text-align: center;
+      font-size: 16px;
+ }
+.navbar{
+    justify-content: space-between;
+    background-color: rgb(17, 14, 17);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 75px;
+    padding: 10px 20px;
+    color: #fff;
+}
+.title{
+    justify-content: space-between;
+}
+.title b{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-style: oblique;
+}
+.title a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.title a:hover {
+    color: rgb(105, 255, 155);
+    text-decoration: underline;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    cursor: pointer;
+}
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-links a:hover {
+    color: hotpink;
+    text-decoration: underline;
+}
+.content{
+   top:0;
+   left: 0; 
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   object-fit: cover
+ } 
+ h1{
+    font-size: 60px;
+    border-color: black;
+    text-align: center;
+  color: rgb(255, 255, 255);
+    padding-top: 250px;
+    font-style:oblique;
+    font-weight: bolder;
+ }
+ h1:hover{
+    -webkit-text-stroke: 1px #fff;
+    color: transparent;
+ }
+ .land p{
+    font-size: 30px;
+    color: #fff; 
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 12px;
+ }
+ .land button{
+    padding: 10px 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgb(43, 226, 186); 
+    color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 50%;
+    border-radius: 30px;
+ }
+ .land button:hover{
+    background-color: rgb(0, 255, 200);
+    color: rgb(9, 37, 195);
+ }
+ #locations {
+   
+    top: 66%;   
+ }
+ h2{
+    text-align: center;
+    margin-bottom: 20px;
+
+ }
+ .container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+ }
+ .card{
+    background: white;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 300px;
+    height: 320px;
+    text-align: center;
+    justify-content: space-between;
+    overflow: hidden;
+    margin: 20px; 
+    box-shadow: 10px 10px lightblue;
+   /* flex-direction: column; */
+ }
+ .card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;;
+ }
+ .card img:hover{
+    cursor: pointer;
+ }
+ .card h3{
+    padding-bottom: 10px;
+ }
+ .card p{
+    padding-bottom: 10px;
+ }
+ .card button{
+    padding: 3px 16px;
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: rgb(43, 226, 186); 
+    color: black;
+    font-size: 20px;
+    border-radius: 30px;
+ }
+ .card button:hover{
+    background-color: rgb(0, 255, 200);
+    color: rgb(9, 37, 195);
+    font-weight: bolder;
+ }
+ #testimonials{
+   padding: 40px 20px;
+   text-align: center;
+ }
+.testimonial{
+   background-color: rgb(95, 221, 221);
+   padding: 50px 20px;
+   border-radius: 10px;
+   text-align: center;
+}
+.testimonial-cards{
+   display: flex;
+   gap: 20px;
+   justify-content: center;
+
+}
+.testdiv{
+   display: flex;
+    gap: 40px;
+    justify-content: center;
+   
+}
+.testimonial-cards{
+   background:white;
+   border: 4px solid black;
+   border-radius: 8px;
+   padding: 20px;
+   width: 300px;
+   text-align: center;
+   align-items: center;
+    margin: 20px;
+    flex-direction: column;
+
+}
+.testimonial-cards img{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   object-fit: cover;
+   margin-bottom: 20px;
+}
+.testimonial-cards p{
+   text-align: justify;
+   font-style: italic;
+}
+footer{
+    background: rgb(34, 32, 32);
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    position: absolute;
+    margin-top: auto;
+    z-index: 10;
+ }
+.info h4{
+    margin: 0 0 15px;
+}
+.info p{
+    margin:0 0 12px;
+    font-size: 1rem;
+}
+.info a{
+    margin:0 0 15px;
+    padding: 8px;
+    color: #09af90;
+    text-decoration: none;
+    font-size: 17px;
+}
+.info a:hover{
+    color: hotpink;   
+}
+.para{
+    margin:0 0 15px;
+    padding: 8px;
+    color: #af9609;
+    font-size: 18px;
+}
